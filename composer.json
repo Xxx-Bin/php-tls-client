@@ -1,0 +1,26 @@
+{
+    "name": "php-tls-client/php-tls-client",
+    "description": "PHP TLS client library with JA3 fingerprinting support",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "your.email@example.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "ext-ffi": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPTLSClient\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PHPTLSClient\\Tests\\": "tests/"
+        }
+    }
+}
