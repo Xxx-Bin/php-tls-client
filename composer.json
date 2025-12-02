@@ -1,5 +1,5 @@
 {
-    "name": "XxxBin/php-tls-client",
+    "name": "xxx-bin/php-tls-client",
     "description": "PHP TLS client library with JA3 fingerprinting support",
     "type": "library",
     "license": "MIT",
