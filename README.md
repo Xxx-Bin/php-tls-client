@@ -36,7 +36,7 @@ This project is based on [Sahil1337/node-tls-client](https://github.com/Sahil133
 ### Via Composer (Recommended)
 
 ```bash
-composer require lwb6/php-tls-client
+composer require xxx-bin/php-tls-client
 ```
 
 ### Manual Installation
