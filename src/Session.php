@@ -160,7 +160,9 @@ class Session
                 'requestUrl' => $url,
                 'requestMethod' => $method,
                 'requestCookies' => $requestCookies,
-            ]);
+                'requestBody'=>isset($options['body']) ? $options['body'] : null,
+
+        ]);
 
         $requestPayloadString = json_encode($mergedPayload);
         $rawResponse = $ffi->request($requestPayloadString);
