@@ -13,6 +13,9 @@ use PHPTLSClient\ClientIdentifier;
 // 初始化 TLS 客户端
 Client::init();
 
+// 方式2：指定自定义共享库路径
+// Client::init('/path/to/tls-client-64.dll');
+
 // 创建会话
 $session = new Session([
     'clientIdentifier' => ClientIdentifier::CHROME_124,
