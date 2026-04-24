@@ -62,6 +62,9 @@ use PHPTLSClient\ClientIdentifier;
 // The required shared library will be automatically downloaded if not found
 Client::init();
 
+// Or specify a custom library path
+// Client::init('/path/to/tls-client-64.dll');
+
 // Create a session with a specific browser fingerprint
 $session = new Session([
     'tlsClientIdentifier' => ClientIdentifier::CHROME_124,
@@ -267,17 +270,30 @@ The response object has the following methods:
 Available client identifiers (use the constants in `ClientIdentifier` class):
 
 ### Chrome
-- `CHROME_103` to `CHROME_131`
+- `CHROME_103` to `CHROME_112`
 - `CHROME_116_PSK`, `CHROME_116_PSK_PQ`
-- `CHROME_131_PSK`
+- `CHROME_117`, `CHROME_120`, `CHROME_124`
+- `CHROME_130_PSK`
+- `CHROME_131`, `CHROME_131_PSK`
+- `CHROME_133`, `CHROME_133_PSK`
+- `CHROME_144`, `CHROME_144_PSK`
+- `CHROME_146`, `CHROME_146_PSK`
+
+### Brave
+- `BRAVE_146`, `BRAVE_146_PSK`
 
 ### Safari
 - `SAFARI_15_6_1`, `SAFARI_16_0`
 - `SAFARI_IPAD_15_6`
-- `SAFARI_IOS_15_5`, `SAFARI_IOS_15_6`, `SAFARI_IOS_16_0`, `SAFARI_IOS_17_0`, `SAFARI_IOS_18_0`
+- `SAFARI_IOS_15_5`, `SAFARI_IOS_15_6`, `SAFARI_IOS_16_0`, `SAFARI_IOS_17_0`, `SAFARI_IOS_18_0`, `SAFARI_IOS_18_5`, `SAFARI_IOS_26_0`
 
 ### Firefox
-- `FIREFOX_102` to `FIREFOX_133`
+- `FIREFOX_102` to `FIREFOX_110`
+- `FIREFOX_117`, `FIREFOX_120`, `FIREFOX_123`
+- `FIREFOX_132`, `FIREFOX_133`, `FIREFOX_135`
+- `FIREFOX_146_PSK`
+- `FIREFOX_147`, `FIREFOX_147_PSK`
+- `FIREFOX_148`
 
 ### Opera
 - `OPERA_89` to `OPERA_91`

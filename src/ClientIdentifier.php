@@ -23,8 +23,19 @@ class ClientIdentifier
     const CHROME_117 = "chrome_117";
     const CHROME_120 = "chrome_120";
     const CHROME_124 = "chrome_124";
+    const CHROME_130_PSK = "chrome_130_PSK";
     const CHROME_131 = "chrome_131";
     const CHROME_131_PSK = "chrome_131_PSK";
+    const CHROME_133 = "chrome_133";
+    const CHROME_133_PSK = "chrome_133_PSK";
+    const CHROME_144 = "chrome_144";
+    const CHROME_144_PSK = "chrome_144_PSK";
+    const CHROME_146 = "chrome_146";
+    const CHROME_146_PSK = "chrome_146_PSK";
+
+    // Brave versions
+    const BRAVE_146 = "brave_146";
+    const BRAVE_146_PSK = "brave_146_PSK";
 
     // Safari versions
     const SAFARI_15_6_1 = "safari_15_6_1";
@@ -35,6 +46,8 @@ class ClientIdentifier
     const SAFARI_IOS_16_0 = "safari_ios_16_0";
     const SAFARI_IOS_17_0 = "safari_ios_17_0";
     const SAFARI_IOS_18_0 = "safari_ios_18_0";
+    const SAFARI_IOS_18_5 = "safari_ios_18_5";
+    const SAFARI_IOS_26_0 = "safari_ios_26_0";
 
     // Firefox versions
     const FIREFOX_102 = "firefox_102";
@@ -48,6 +61,11 @@ class ClientIdentifier
     const FIREFOX_123 = "firefox_123";
     const FIREFOX_132 = "firefox_132";
     const FIREFOX_133 = "firefox_133";
+    const FIREFOX_135 = "firefox_135";
+    const FIREFOX_146_PSK = "firefox_146_PSK";
+    const FIREFOX_147 = "firefox_147";
+    const FIREFOX_147_PSK = "firefox_147_PSK";
+    const FIREFOX_148 = "firefox_148";
 
     // Opera versions
     const OPERA_89 = "opera_89";
